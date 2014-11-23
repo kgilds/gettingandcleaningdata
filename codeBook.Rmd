@@ -1,0 +1,209 @@
+---
+title: "Codebook"
+author: "Kevin Gilds"
+date: "Saturday, November 22, 2014"
+output: html_document
+---
+### Background
+
+Experiment were conducted with 30 individuals with an age range of 19-48. The individuals carried out six different activities while wearing a Samsung Galaxy S II on their waist. Using an accelerometer and gyroscope embedded in the smartphone, 3 axial linear acceleration and 3 axial angular velocity. 
+
+### Data Processing
+
+The original data set was pre-processed by applying noise filters from the sensor signals. For more details on how the original data was pre-processed please, read the readme.txt from the original data sources.
+
+For this analysis only the measures with mean and standard deviation were selected for analysis, and the mean measures were summarized by activity and subject.  
+
+
+
+
+### Activity-- 
+
+Subjects were measured doing 6 different activities and they are as follows
+
+* Standing
+* Sitting
+* Laying
+* Walking
+* Walking_Downstairs
+* Walking_Upstairs
+
+
+### SubjectId
+
+Unique identifier of the individuals in the experiment. 
+
+### tBodyAcc-XYZ
+
+* t-conveys time
+* Mean-estimated mean body raw accelerometer signal
+* SD--estimated mean standard deviation from accelerometer signal
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+### tGravityAcc-XYZ
+* t-conveys time
+* Mean-Mean Gravity accelerometer axial raw signal
+* SD--Mean Standard Deviation from Gravity accelerometer signal
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### tBodyAccJerk-XYZ
+
+* t-conveys time
+* Mean-Mean-triaxial Angular velocity 
+* SD--Mead standard deviation of the triaxial angular velocity
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### tBodyGyro-XYZ
+
+* t-conveys time
+* Mean-Mean gyroscope axial raw signal
+* SD--Mean standard deviation axial raw signal
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### tBodyGyroJerk-XYZ
+* t-conveys time
+* Mean-mean jerk signals from linear acceleration and angular velocity
+* SD-- mean standard deviation from linear acceleration and angular velocity 
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+### tBodyAccMag
+
+* t-conveys time
+* Mean-mean magnitude of these three-dimensional accelerometer signals were calculated using the Euclidean norm
+* SD-- mean standard deviation magnitude of these three-dimensional signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+###tGravityAccMag
+* t-conveys time
+* Mean-mean magnitude of these three-dimensional gravity  signals were calculated using the Euclidean norm
+* SD-- mean standard deviation magnitude of these three-dimensional  gravity signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+###tBodyAccJerkMag
+
+* t-conveys time
+* Mean-mean  magnitude of these three-dimensional jerk accelerometer  signals were calculated using the Euclidean norm
+* SD-- mean standard deviation   magnitude of these three-dimensional  accelerometer signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### tBodyGyroMag
+* t-conveys time
+* Mean-mean  magnitude of these three-dimensional  gyroscope signals were calculated using the Euclidean norm
+* SD-- mean standard deviation   magnitude of these three-dimensional  gyroscope signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+### tBodyGyroJerkMag
+* t-conveys time
+* Mean-mean  magnitude of these three-dimensional jerk gyroscope  signals were calculated using the Euclidean norm
+* SD-- mean standard deviation   magnitude of these three-dimensional jerk  gyroscope signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### fBodyAcc-XYZ
+
+* f-Fast Fourier Transform 
+* Mean-Mean raw accelerometer signal
+* SD--Mean Standard Deviation from accelerometer signal
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### fBodyAccJerk-XYZ
+* f-Fast Fourier Transform 
+* Mean-Mean-linear acceleration and angular velocity
+* SD--Mead standard deviation from linear acceleration and angular velocity. 
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### fBodyGyro-XYZ
+* f-Fast Fourier Transform 
+* Mean-Mean gyroscope axial raw signal
+* SD--Mean standard deviation axial raw signal
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### fBodyAccMag
+* f-Fast Fourier Transform 
+* Mean-mean magnitude of these three-dimensional accelerometer signals were calculated using the Euclidean norm
+* SD-- mean standard deviation magnitude of these three-dimensional accelerometer signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+### fBodyAccJerkMag
+
+* f-Fast Fourier Transform 
+* Mean-mean  magnitude of these three-dimensional jerk accelerometer  signals were calculated using the Euclidean norm
+* SD-- mean standard deviation   magnitude of these three-dimensional  accelerometer signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+### fBodyGyroMag
+
+* f-Fast Fourier Transform 
+* Mean-mean  magnitude of these three-dimensional  gyroscope signals were calculated using the Euclidean norm
+* SD-- mean standard deviation   magnitude of these three-dimensional  gyroscope signals were calculated using the Euclidean norm
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+### fBodyGyroJerkMag
+* f-Fast Fourier Transform 
+* Mean-mean jerk signals from linear acceleration and angular velocity
+* SD-- mean standard deviation from linear acceleration and angular velocity 
+* X-Axial signal in the X direction
+* Y-Axial signal in the Y direction
+* Z-Axial signal in the Z direction
+
+
+
+
+
+
+
+
+
+
+
